@@ -55,6 +55,7 @@ h2 {
 
 p {
     margin: 20px;
+    text-align: center;
 }
 img{
     max-width: 100%;
@@ -88,45 +89,46 @@ header {
     padding: 16px;
 }
 
-section {
-    min-height: 100vh;
+section { 
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 16px;
+    min-height: 100vh;
     padding-top: 120px;
 }
 
-#Inicio {
+#inicio {
     justify-content: space-around;
+}
+.foto{
+    margin-bottom: 20px;
+}
+.foto img{
+    width: 400px;
+
+}
+.presentacion{
+    text-align: center;
+    width: 100%;
+}
+.btn-CV {
+    font-size: 20px;
+    background-color: #af599e;
+    border-radius: 50px;
+    margin-top: 16px;
+    padding: 12px 20px; 
+    color: #fbfbfb;
+    font-weight: 700;
+
 }
 
 .perfil {
-    width: 400px;
+    
     border-radius: 200px;
     margin: auto;
     display: flex;
     justify-content: center;
-}
-
-p {
-    font-size: 18px;
-    padding: 20px 20px 20px 20px;
-    line-height: 1.2;
-    text-align: center;
-
-}
-
-.btn-CV {
-    font-size: 20px;
-    background-color: #af599e;
-    border-radius: 15px;
-    text-align: center;
-    width: 40%;
-    margin: auto;
-    padding: 10px;
-    color: #fbfbfb;
-
 }
 
 .contacto {
