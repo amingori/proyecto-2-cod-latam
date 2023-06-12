@@ -1,0 +1,162 @@
+/* Importar aquí la font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+    font-size: 18px;
+    line-height: 1.2;
+    color: black;
+
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+
+}
+
+h2 {
+    color: black;
+    font-size: 28px;
+
+}
+
+p {
+    margin: 20px;
+}
+img{
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 3px 9px -5px grey;
+    padding: 16px;
+    background-color: #fbfbfb;
+
+}
+.logo{
+    width: 120px;
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+    margin-right: 16px;
+
+}
+
+.menu li a {
+    padding: 16px;
+}
+
+section {
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    padding-top: 120px;
+}
+
+#Inicio {
+    justify-content: space-around;
+}
+
+.perfil {
+    width: 400px;
+    border-radius: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+.btn-CV {
+    font-size: 20px;
+    background-color: #af599e;
+    border-radius: 15px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    color: #fbfbfb;
+
+}
+
+.contacto {
+    text-align: center;
+    background-color: rgba(175, 89, 158, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px 15px 0px 15px;
+
+}
+
+.botones {
+    text-align: center;
+}
+
+img {
+    margin: 30px;
+    width: 20%;
+    padding: 15px;
+}
+
+footer {
+    height: 90px;
+    width: 100%;
+    background-color: #af599e;
+}
+
+footer p {
+    color: #fbfbfb;
+    text-align: center;
+    padding: 30px;
+
+}
