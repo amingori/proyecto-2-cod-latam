@@ -43,7 +43,7 @@ body {
 
 h1 {
     font-size: 36px;
-    text-align: center;
+    text-align:center;
 
 }
 
@@ -90,12 +90,11 @@ header {
 }
 #inicio {
     justify-content: space-around;
-    display: flex;
-    flex-direction: row;
+    
 }
 
-section { 
-    
+section {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 16px;
