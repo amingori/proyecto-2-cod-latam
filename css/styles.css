@@ -1,32 +1,23 @@
-/* Importar aquí la font */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
-/* Reset */
+/*Pagina realizada con principios Mobile First*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
 
-
-/* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
 
 }
 
-/* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
     text-decoration: none;
     color: inherit;
     color: #fbfbfb;
 }
 
-/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
-*  el margin: auto; para tenerlo centrado fácilmente ;)
-*/
 main {
     max-width: 1200px;
     margin: auto;
@@ -39,8 +30,7 @@ body {
     font-size: 18px;
     line-height: 1.2;
     color: black;
-    margin: auto;
-    background-image: url(/img/34269.jpg);
+    background-image:url(../img/fondo.jpg);
 
 }
 
@@ -77,7 +67,7 @@ header {
     height: 90px;
     box-shadow: 0px 3px 19px -5px grey;
     padding: 16px;
-    
+
 
 }
 
@@ -95,7 +85,8 @@ header {
 .menu li a {
     padding: 16px;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     text-decoration: underline;
 }
 
@@ -112,7 +103,7 @@ section {
     padding: 16px;
     min-height: 100vh;
     padding-top: 120px;
-    margin: auto;
+    
 }
 
 
@@ -122,37 +113,34 @@ section {
 
 .foto img {
     width: 500px;
+    border-radius: 100px;
 
 }
 
 .presentacion {
-    text-align:center;
+    text-align: center;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.933);
+    background-color: rgba(48, 5, 38, 0.658);
     padding: 20px;
     border-radius: 10px;
     border: solid 2px whitesmoke;
 }
 
 .btn-CV {
-    font-size: 25px;
+    font-size: 20px;
     background-color: rgba(255, 255, 0, 0.76);
     border-radius: 40px;
     margin-top: 16px;
     padding: 12px 20px;
     font-weight: 700;
     color: black
-
 }
-.btn-CV:hover{
-    background-color: rgba(128, 0, 128, 0.596);
+
+.btn-CV:hover {
+    background-color: rgba(175, 89, 158, 0.3);
     color: white;
     text-decoration: underline;
     transition: 0.3s;
-}
-
-.perfil {
-    border-radius: 150px;
 }
 
 .contacto {
@@ -163,11 +151,12 @@ section {
     margin: 0px 15px 0px 15px;
 
 }
-
-.botones {
+.botones{
     text-align: center;
 }
-.png{
+
+
+.png {
     background-color: rgba(255, 255, 255, 0.849);
     border-radius: 10px;
 }
@@ -181,7 +170,7 @@ img {
 footer {
     height: 90px;
     width: 100%;
-    background-color: #af599e;
+    background-color: #0000006e;
 }
 
 footer p {
@@ -198,40 +187,50 @@ footer p {
         font-size: 48px;
         text-align: left;
     }
-    h2{
+
+    h2 {
         font-size: 38px;
     }
 
     #inicio {
         flex-direction: row;
     }
+    .menu li a {
+        font-size: 27px;
+    }
 
     .presentacion {
-        width: 50%;
+        width: 55%;
         text-align: left;
     }
 
     .presentacion p {
         text-align: left;
-        font-size: 30px;
+        font-size: 24px;
     }
-    a{
-        font-size: 38px;
 
-    }
-    .contacto p{
+    .btn-CV {
         font-size: 30px;
 
     }
-    footer{
+
+    .contacto p {
+        font-size: 30px;
+
+    }
+
+    footer {
         height: 120px;
+        width: 100%;
     }
-    footer p{
+
+    footer p {
         font-size: 38px;
 
+    }img{
+    margin: 30px;
+    width: 25%;
+    padding: 15px;
     }
-    .png{
 
-    }
-    
 }
