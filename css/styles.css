@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 /*Pagina realizada con principios Mobile First*/
 * {
     box-sizing: border-box;
@@ -26,11 +27,8 @@ main {
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #fbfbfb;
-    font-size: 18px;
     line-height: 1.2;
-    color: black;
-    background-image:url(../img/fondo.jpg);
+    background-image: url(../img/fondo.jpg);
 
 }
 
@@ -55,7 +53,7 @@ p {
 
 img {
     max-width: 80%;
-    text-align: center; 
+    text-align: center;
 }
 
 header {
@@ -73,14 +71,14 @@ header {
 }
 
 .logo {
-    width: 120px;
+    width: 110px;
+    border-radius: 75px;
+    height: 110px;
 }
 
 .menu {
     display: flex;
     font-size: 20px;
-    margin-right: 16px;
-
 }
 
 .menu li a {
@@ -99,18 +97,19 @@ section {
     padding: 10px;
     min-height: 100vh;
     padding-top: 120px;
-    
-}
 
+}
 
 .foto {
     margin-bottom: 20px;
     text-align: center;
+
 }
 
 .foto img {
     width: 500px;
     border-radius: 100px;
+    border: solid 3px whitesmoke;
 
 }
 
@@ -120,7 +119,8 @@ section {
     background-color: rgba(48, 5, 38, 0.658);
     padding: 20px;
     border-radius: 10px;
-    border: solid 2px whitesmoke;
+    border: solid 1px whitesmoke;
+
 }
 
 .btn-CV {
@@ -146,9 +146,11 @@ section {
     border-radius: 10px;
     padding: 20px;
     margin: 0px 15px 0px 15px;
+    border: solid 1px whitesmoke;
 
 }
-.botones{
+
+.botones {
     text-align: center;
 }
 
@@ -167,11 +169,11 @@ img {
 footer {
     height: 90px;
     width: 100%;
-    background-color: #0000009c;
+    background-color: #000000c4;
 }
 
 footer p {
-    color:rgba(255, 255, 0, 0.76);
+    color: rgba(255, 255, 0, 0.76);
     text-align: center;
     padding: 30px;
 
@@ -192,6 +194,7 @@ footer p {
     #inicio {
         flex-direction: row;
     }
+
     .menu li a {
         font-size: 27px;
     }
@@ -224,10 +227,15 @@ footer p {
     footer p {
         font-size: 38px;
 
-    }img{
-    margin: 30px;
-    width: 25%;
-    padding: 15px;
+    }
+
+    img {
+        margin: 30px;
+        width: 25%;
+        padding: 15px;
+    }
+    .botones{
+        width: 75%;
     }
 
 }
