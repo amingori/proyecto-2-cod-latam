@@ -55,7 +55,7 @@ p {
 
 img {
     max-width: 80%;
-    text-align: center;
+    text-align: center; 
 }
 
 header {
@@ -91,11 +91,6 @@ header {
     text-decoration: underline;
 }
 
-#inicio {
-    justify-content: space-around;
-
-}
-
 section {
     display: flex;
     flex-direction: column;
@@ -110,6 +105,7 @@ section {
 
 .foto {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .foto img {
