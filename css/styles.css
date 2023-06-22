@@ -73,7 +73,9 @@ header {
 .logo {
     width: 110px;
     border-radius: 75px;
-    height: 110px;
+    height: 100px;
+    display: flex;
+    justify-content: left;
 }
 
 .menu {
@@ -97,12 +99,6 @@ section {
     padding: 10px;
     min-height: 100vh;
     padding-top: 120px;
-
-}
-
-.foto {
-    margin-bottom: 20px;
-    text-align: center;
 
 }
 
