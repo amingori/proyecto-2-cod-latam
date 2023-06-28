@@ -51,11 +51,6 @@ p {
     color: #fbfbfbe7;
 }
 
-img {
-    max-width: 80%;
-    text-align: center;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -71,9 +66,9 @@ header {
 }
 
 .logo {
-    width: 110px;
+    width: 70px;
     border-radius: 75px;
-    height: 100px;
+    height: 75px;
     display: flex;
     justify-content: left;
 }
@@ -103,9 +98,10 @@ section {
 }
 
 .foto img {
-    width: 500px;
+    width: 80%;
     border-radius: 100px;
     border: solid 3px whitesmoke;
+    text-align: center;
 
 }
 
@@ -154,12 +150,12 @@ section {
 .png {
     background-color: rgba(255, 255, 255, 0.849);
     border-radius: 10px;
+    width: 25%;
 }
 
 img {
-    margin: 30px;
-    width: 25%;
-    padding: 15px;
+    margin: 35px;
+    text-align: center;
 }
 
 footer {
@@ -202,7 +198,7 @@ footer p {
     }
 
     .presentacion {
-        width: 55%;
+        width: 60%;
         text-align: left;
     }
 
@@ -233,12 +229,18 @@ footer p {
 
     img {
         margin: 30px;
-        width: 25%;
+        width: 20%;
         padding: 15px;
     }
 
     .botones {
         width: 75%;
+    }
+
+    .logo {
+        width: 110px;
+        height: 100px;
+        border-radius: 25px;
     }
 
 }
